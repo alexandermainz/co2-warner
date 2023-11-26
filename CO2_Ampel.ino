@@ -80,7 +80,7 @@ void setup() {
   
 
   // turn off sensor autocalibration - for manually calibration only; otherwise set to true!
-  myMHZ19.autoCalibration(false);
+  myMHZ19.autoCalibration(true);
   // set the sensor's measurement range to 0-3000ppm
   myMHZ19.setRange(3000);                             
 
